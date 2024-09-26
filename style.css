@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Playwrite DE Grund", cursive;
+  color: rgb(17, 17, 78);
+}
+
+.container {
+  border: 2px solid rgb(113, 196, 216);
+  margin: 20px;
+  padding: 20px;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: "Fontdiner Swanky", serif;
+}
+
+.menu-bar {
+  list-style-type: none;
+  margin-top: 10px;
+  min-height: 40px;
+  margin-right: 60px;
+  font-size: 17px;
+  align-items: flex-start;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: blue;
+  padding: 5px 20px;
+  border: 5px solid blue;
+  transition: 5ms;
+}
+
+ul li a :hover {
+  background-color: aqua;
+  color: black;
+}
+
+.paragraph-come-see {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url("./images/norbert-braun-QeArXkn5hxU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  font-family: "Comforter Brush", cursive;
+  font-size: 50px;
+}
+
+.todo-container {
+  border: 10px solid rgb(75, 143, 172);
+  min-height: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.todo-card-1 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/wild-life.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  align-items: flex-end;
+  color: aliceblue;
+}
+
+.todo-card-2 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/rainforest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-3 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/beach.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-4 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/temple.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-5 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/food.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-6 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/culture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-7 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/advanture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+.todo-card-8 {
+  border: 10px solid rgb(159, 191, 198);
+  min-height: 80px;
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-between;
+  background-image: url("./images/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: azure;
+  margin: 0;
+  min-height: 10vh;
+  font-family: "Fontdiner Swanky", serif;
+  color: aliceblue;
+}
+
+nav i {
+  color: blue;
+  font-size: 20px;
+}
+
+nav i:hover {
+  color: blueviolet;
+}
+
+.no-border {
+  border: none;
+}
+
+.head-font {
+  font-family: "Fontdiner Swanky", serif;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div img {
+  width: 400px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 4px 7px 0px black;
+  cursor: pointer;
+  margin: 10px;
+  transition: 400ms;
+}
+
+div img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
